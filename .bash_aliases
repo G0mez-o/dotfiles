@@ -1,0 +1,7 @@
+alias g++11='g++ $1 -std=c++11'
+alias roscm='cd ~/catkin_ws && catkin_make'
+alias vimcmake='vim CMakeLists.txt'
+alias rosrun_omni='cd ~/omni_ws/ros_indigosdk-2.0.1/build/devel/lib/ros_indigosdk && ./ros_indigosdk_node'
+alias vim='emacs $1 -nw'
+alias vi='emacs $1 -nw'
+alias atom='emacs &'

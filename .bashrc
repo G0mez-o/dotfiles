@@ -115,14 +115,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-#There are my original alias under this line.
-alias g++11='g++ $1 -std=c++11'
-alias roscm='cd ~/catkin_ws && catkin_make'
-alias vimcmake='vim CMakeLists.txt'
-alias rosrun_omni='cd ~/omni_ws/ros_indigosdk-2.0.1/build/devel/lib/ros_indigosdk && ./ros_indigosdk_node'
-alias vim='emacs $1 -nw'
-alias vi='emacs $1 -nw'
-alias atom='emacs &'
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
 source /opt/ros/kinetic/setup.bash 
 source ~/catkin_ws/devel/setup.bash
 export PATH="/usr/local/cuda/bin:$PATH"
