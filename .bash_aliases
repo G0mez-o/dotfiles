@@ -5,3 +5,5 @@ alias rosrun_omni='cd ~/omni_ws/ros_indigosdk-2.0.1/build/devel/lib/ros_indigosd
 alias vim='emacs $1 -nw'
 alias vi='emacs $1 -nw'
 alias atom='emacs &'
+alias cm='cd ~/catkin_ws && catkin_make'
+alias bap='source ~/catkin_ws/devel/setup.bash && rospack profile'
