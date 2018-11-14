@@ -1,0 +1,7 @@
+alias run_omni='cd ~/omni_ws/ros_indigosdk-2.0.1/build/devel/lib/ros_indigosdk && ./ros_indigosdk_node'
+alias cm='cd ~/catkin_ws && catkin_make'
+alias cw='cd ~/catkin_ws'
+alias cs='cd ~/catkin_ws/src'
+alias cv='cd ~/catkin_ws/devel'
+alias sefun='cd ~/catkin_ws/src/velodyne_camera_fusion'
+alias bap='source ~/catkin_ws/devel/setup.bash && rospack profile'

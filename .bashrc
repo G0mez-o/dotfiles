@@ -105,6 +105,11 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+if [ -f ~/.bash_aliases_ros ]; then
+    . ~/.bash_aliases_ros
+fi
+
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -116,11 +121,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
 
-source /opt/ros/kinetic/setup.bash 
+source /opt/ros/kinetic/setup.bash
 source ~/catkin_ws/devel/setup.bash
 
 export PATH="/usr/local/cuda/bin:$PATH"
