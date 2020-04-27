@@ -9,4 +9,5 @@ rosdep update
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 sudo apt-get install python-rosinstall
+sudo apt-get install ros-kinetic-catkin python-catkin-tools 
 echo "ROS Installer Finished !!"
