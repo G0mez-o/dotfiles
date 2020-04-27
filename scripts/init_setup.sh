@@ -1,5 +1,6 @@
 #!/bin/sh
 
+sudo apt-get install cmake
 sudo apt-get install emacs
 sudo apt-get install terminator
 sudo apt-get install gnome-system-monitor
